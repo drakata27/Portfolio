@@ -1,28 +1,25 @@
+
+/* Global styles
+---------------------*/
+body {
+    color: #343434;
+}
+
 img {
     width: 300px;
 }
 
-* {
-    color: red;
-}
+/* Profile
+---------------------*/
 
-h1 {
-    color: blue;
-}
+/* Projects
+---------------------*/
 
-h2 {
-    color: green;
-}
+/* Work Experience
+---------------------*/
 
-.example {
-    color: orange;
-}
-.example2 {
-    background: black;
-}
-.example.example2 {
-    font-size; 50px;
-}
-#example {
-    font-size: 70px;
-}
+/* Education
+---------------------*/
+
+/* Contact Info
+---------------------*/
