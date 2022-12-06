@@ -1,6 +1,12 @@
 
 /* Global styles
 ---------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     color: #343434;
     margin: 0;
@@ -44,6 +50,7 @@ h1,h2 {
 header {
     background: #2f3061;
     color: #f7fff7;
+    text-align: center;
 }
 
 /* Projects
@@ -64,11 +71,28 @@ header {
 .projects .btn:hover{
     background: rgba(47, 48, 97, 0.5);
 }
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 
 /* Work Experience
 ---------------------*/
 .work-experience {
     background: #a1c6d7;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 /* Education
 ---------------------*/
@@ -78,5 +102,16 @@ header {
 footer {
     background: #343434;
     color: #f7fff7;
+    text-align: center;
 
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 20px;
+    display: inline-block;
 }
