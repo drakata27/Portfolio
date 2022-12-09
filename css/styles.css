@@ -104,11 +104,12 @@ header {
 .mira-gen-image img{
     margin-bottom: 20px;
     width: 200px;
+    height: 394px;
 }
 .mira-gen-image {
-    width: 200px;
+    width: 80px;
 }
-.mira-gen-container {
+.mira-gen-images {
     width: 500px;
 }
 
@@ -159,16 +160,21 @@ footer {
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
-    .mira-gen-container {
+    .mira-gen-images {
         /* display: flex;
         flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 400px 400px;
-        column-gap: 0px;
     }
-    .mira-gen-container.mira-gen-image {
+    .mira-gen-images.mira-gen-image {
         width: 50%;
+        float: left;
+        margin-right: 20px;
+    }
+    .mira-gen-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .contact-list {
         display: flex;
