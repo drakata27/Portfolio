@@ -112,12 +112,6 @@ header {
 .mira-gen-images {
     width: 500px;
 }
-
-/* Work Experience
----------------------*/
-.work-experience {
-    background: #a1c6d7;
-}
 /* Education
 ---------------------*/
 .education {
@@ -154,11 +148,6 @@ footer {
     .project-item img {
         float: left;
         margin-right: 20px;
-    }
-    .job-item {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 20px;
     }
     .mira-gen-images {
         /* display: flex;
